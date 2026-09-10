@@ -1,4 +1,9 @@
-###### README.md >> markdown 
+###### README.md >> markdown
+
+![ServalFR](https://img.shields.io/badge/ServalFR-Simulation_Logistique-4B5320?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Actif-brightgreen?style=for-the-badge)
+
 # ServalFR
 
 ServalFR est un projet de simulation/logistique d'armement orienté défense française.
