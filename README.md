@@ -1,8 +1,14 @@
 ###### README.md >> markdown
 
-![ServalFR](https://img.shields.io/badge/ServalFR-Simulation_Logistique-4B5320?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Actif-brightgreen?style=for-the-badge)
+<p align="center">
+
+  <img src="https://img.shields.io/badge/ServalFR-Simulation_Logistique-4B5320?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Status-Actif-purple?style=for-the-badge" />
+
+</p>
 
 # ServalFR
 
