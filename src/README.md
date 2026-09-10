@@ -1,4 +1,9 @@
-###### README.md >> markdown 
+###### README.md >> markdown
+
+![src](https://img.shields.io/badge/src-Code_Source-2c3e50?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Simulation](https://img.shields.io/badge/Module-Simulation-556B2F?style=for-the-badge)
+
 # src/
 
 Ce dossier contient le code source principal de **ServalFR**.
