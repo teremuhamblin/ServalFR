@@ -5,17 +5,16 @@
 ![Simulation](https://img.shields.io/badge/Module-Simulation-51000e?style=for-the-badge)
 
 # src/
-
-Ce dossier contient le code source principal de **ServalFR**.
+- Ce dossier contient le code source principal de **ServalFR**.
 
 ### Contenu
 - Modules de simulation logistique.
-- Fonctions utilitaires.
-- Point d’entrée du programme (`main.py`).
-- Fichier (`__init__.py`)
-   > ServalFR est un module Python dédié à la simulation logistique générique.  
-   > Il fournit des outils simples pour organiser des scénarios, gérer des unités  
-   > et structurer des opérations sans aucun calcul d’armement.
+   - Fonctions utilitaires.
+- Point d’entrée du programme **(`main.py`)**.
+- Fichier **(`__init__.py`)**
+   - ServalFR est un module Python dédié à la simulation logistique générique.  
+   - Il fournit des outils simples pour organiser des scénarios, gérer des unités  
+   - Structurer des opérations sans aucun calcul d’armement.
 
 ---
 
