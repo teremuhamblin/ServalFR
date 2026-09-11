@@ -19,6 +19,25 @@ ServalFR est un projet de simulation/logistique d'armement orienté défense fra
 - Fournir des outils d’analyse pour des exercices ou études.
 - Servir de base à un projet académique ou open‑source.
 
+### Structure du projet
+```text
+ServalFR/
+│
+├── pyproject.toml
+├── README.md
+├── src/
+│   ├── README.md 
+│   └── servalfr/
+│       ├── __init__.py
+│       └── main.py
+├── tests/
+│   ├── README.md 
+│   └── test_main.py
+└── .github/
+    └── workflows/
+        └── ci.yml
+```
+
 ### Technologies
 - Python 3.x
 - pytest
