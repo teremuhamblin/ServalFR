@@ -29,6 +29,8 @@ ServalFR est un projet de simulation/logistique d'armement orienté défense fra
 ServalFR/
 │
 ├── pyproject.toml
+├── CHANGELOG.md 
+├── RELEASE-NOTES.md
 ├── README.md
 ├── src/
 │   ├── README.md 
