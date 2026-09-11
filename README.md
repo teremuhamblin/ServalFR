@@ -16,7 +16,8 @@
 
 # ServalFR
 ServalFR est un projet de simulation/logistique d'armement orienté défense française :
-- Module d’armement : analyse, organisation, modélisation de scénarios et lancement.
+- Module d’armement :
+   - analyse, organisation, modélisation de scénarios et lancement.
 
 ### Objectifs
 - Simuler des scénarios de déploiement ou d’appui logistique.
@@ -59,12 +60,12 @@ ServalFR/
 
 
 ### 📦 Installation
-- Mode développement (recommandé)
+- Mode développement (recommandé) :
 ```bash
 pip install -e .
 ```
 
-- Vérification
+- Vérification :
 ```bash
 python -c "import servalfr; print(servalfr.run_simulation({'scenario':'test'}))"
 ```
@@ -72,7 +73,7 @@ python -c "import servalfr; print(servalfr.run_simulation({'scenario':'test'}))"
 ---
 
 ### 🚀 Utilisation
-- Exemple minimal
+- Exemple minimal :
 ```python
 from servalfr.main import run_simulation
 
@@ -104,16 +105,16 @@ pytest -q
 ---
 
 ### 🔓 Pour la section License
-- The Unlicense
+- The Unlicense :
    - Ce projet est placé dans le domaine public via The Unlicense.
-   - Vous êtes libre d’utiliser, modifier, distribuer ou vendre ce logiciel
-   - sans aucune restriction.
+   - Vous êtes libre d’utiliser, modifier, distribuer ou vendre ce logiciel.
+   - Sans aucune restriction.
    - Le code est fourni “tel quel”, sans garantie.
 
 ---
 
 ### 🐺 Auteur
-- The MadDoG.tmdg / Major Hamblin  
-- Ingénierie Python
+- The MadDoG.tmdg / Major Hamblin. 
+- Ingénierie Python :
    - Architecture militaire
    - Simulation logistique
