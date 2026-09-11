@@ -11,8 +11,7 @@
 </p>
 
 # ServalFR
-
-ServalFR est un projet de simulation/logistique d'armement orienté défense française.
+ServalFR est un projet de simulation/logistique d'armement orienté défense française :
 - Module d’armement : analyse, organisation, modélisation de scénarios et lancement.
 
 ### Objectifs
