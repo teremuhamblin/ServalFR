@@ -2,24 +2,39 @@ name: ServalFR CI
 
 on:
   push:
+    branches: ["main", "dev"]
   pull_request:
 
 jobs:
   test:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
     steps:
-      - name: Checkout
+      - name: 📦 Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python-version }}
 
-      - name: Install deps
+      - name: 🔧 Install dependencies
         run: |
+          echo ">>> INSTALLATION DES DEPENDANCES"
           python -m pip install --upgrade pip
           pip install pytest
+          pip install -e .
 
-      - name: Run tests
-        run: pytest
+      - name: 📁 Vérification structure du projet
+        run: |
+          echo ">>> LISTING DU REPO"
+          ls -R .
+
+      - name: 🧪 Run tests
+        run: |
+          echo ">>> TESTS PYTEST"
+          pytest -q
