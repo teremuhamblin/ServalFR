@@ -43,3 +43,12 @@ ServalFR/
 - pytest
 - (optionnel) FastAPI pour une API
 - (optionnel) Interface web (Vue/React)
+
+### 🔓 Pour la section License
+- The Unlicense
+   - Ce projet est placé dans le domaine public via The Unlicense.
+   - Vous êtes libre d’utiliser, modifier, distribuer ou vendre ce logiciel
+   - sans aucune restriction.
+   - Le code est fourni “tel quel”, sans garantie.
+
+---
